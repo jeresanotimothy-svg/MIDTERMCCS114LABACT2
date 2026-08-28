@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TJ GARAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+        <i class="bi bi-speedometer2"></i> TJ <span>GARAGE</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 mt-3 mt-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="btn btn-accent btn-sm ms-lg-2 mt-2 mt-lg-0" href="#gallery">View Gallery</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+
+    <header id="home" class="hero-section">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="1.gif" class="d-block w-100" alt="Sports car speeding on a highway at sunset">
+        </div>
+        <div class="carousel-item">
+            <img src="2.gif" class="d-block w-100" alt="Classic vintage car parked on a scenic road">
+        </div>
+        <div class="carousel-item">
+            <img src="5.gif" class="d-block w-100" alt="Electric car charging at a modern charging station">
+        </div>
+        </div>
+    </div>
+
+    <div class="hero-overlay"></div>
+    <div class="speed-lines"></div>
+
+    <div class="hero-content text-center">
+        <p class="hero-eyebrow anim-in" style="animation-delay:.1s">EST. 2026, A CURATED AUTOMOTIVE SHOWCASE</p>
+        <h1 class="hero-title anim-in" style="animation-delay:.25s">
+        WHERE <span class="text-accent">HORSEPOWER</span><br> MEETS ART
+        </h1>
+        <p class="hero-sub anim-in" style="animation-delay:.4s">
+        From vintage classics to electric hypercars and explore a gallery built for people who feel the road.
+        </p>
+        <div class="hero-btns anim-in" style="animation-delay:.55s">
+        <a href="#gallery" class="btn btn-accent btn-lg">Explore Gallery <i class="bi bi-arrow-down-right"></i></a>
+        <a href="#about" class="btn btn-outline-light btn-lg">About the Project</a>
+        </div>
+    </div>
+
+    <a href="#stats" class="scroll-down" aria-label="Scroll down"><span></span></a>
+    </header>
+
+
+    <section id="stats" class="stats-strip">
+    <div class="container">
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+        <div class="col reveal" data-anim="zoom-in">
+            <div class="stat-number">12</div>
+            <div class="stat-label">Cars Showcased</div>
+        </div>
+        <div class="col reveal" data-anim="zoom-in">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Categories</div>
+        </div>
+        <div class="col reveal" data-anim="zoom-in">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Years of Motoring History</div>
+        </div>
+        <div class="col reveal" data-anim="zoom-in">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Continents Featured</div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="about" class="section-padding">
+    <div class="container">
+        <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6 order-lg-2 reveal" data-anim="fade-left">
+            <div class="tilt-frame">
+            <img src="4.jpg" class="img-fluid rounded-4 tilt-img" alt="Mechanic polishing a car in a garage">
+            <div class="tilt-badge"><i class="bi bi-award-fill"></i> BEST OVERALL BATMAN</div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-1 reveal" data-anim="fade-right">
+            <p class="section-eyebrow">ABOUT THE SHOWCASE</p>
+            <h2 class="section-title">Built By Jeresano, <span class="text-accent">A Car and Transportation Gallery</span></h2>
+            <p class="section-text">
+            TJ GARAGE is a digital showroom celebrating the full spectrum of cars and transportation and 
+            roaring V8 muscle cars, silent electric hypercars, rugged off-roaders, and timeless classics.
+            Every image in this gallery tells a story of engineering, design, and the open road.
+            </p>
+            <div class="row g-3 mt-3">
+            <div class="col-6"><div class="feature-pill"><i class="bi bi-check-circle-fill"></i> Hand-picked photography</div></div>
+            <div class="col-6"><div class="feature-pill"><i class="bi bi-check-circle-fill"></i> 6 vehicle categories</div></div>
+            <div class="col-6"><div class="feature-pill"><i class="bi bi-check-circle-fill"></i> Detailed spec cards</div></div>
+            <div class="col-6"><div class="feature-pill"><i class="bi bi-check-circle-fill"></i> Updated regularly</div></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="categories" class="section-padding section-dark">
+    <div class="container">
+        <div class="text-center mb-5 reveal" data-anim="fade-up">
+        <p class="section-eyebrow">BROWSE BY TYPE</p>
+        <h2 class="section-title">Find Your Style</h2>
+        <p class="section-text">Click a category to jump straight down to the gallery.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+        <div class="col reveal" data-anim="fade-up">
+            <a class="category-card" href="#gallery">
+            <img src="3.gif" alt="Sports car category">
+            <div class="category-overlay"><i class="bi bi-lightning-charge-fill"></i><span>Sports</span></div>
+            </a>
+        </div>
+        <div class="col reveal" data-anim="fade-up">
+            <a class="category-card" href="#gallery">
+            <img src="6.gif" alt="Classic car category">
+            <div class="category-overlay"><i class="bi bi-stopwatch-fill"></i><span>Classic</span></div>
+            </a>
+        </div>
+        <div class="col reveal" data-anim="fade-up">
+            <a class="category-card" href="#gallery">
+            <img src="7.gif" alt="Electric car category">
+            <div class="category-overlay"><i class="bi bi-ev-front-fill"></i><span>Electric</span></div>
+            </a>
+        </div>
+        <div class="col reveal" data-anim="fade-up">
+            <a class="category-card" href="#gallery">
+            <img src="8.gif" alt="Off-road vehicle category">
+            <div class="category-overlay"><i class="bi bi-signpost-split-fill"></i><span>Off-Road</span></div>
+            </a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="gallery" class="section-padding">
+    <div class="container">
+        <div class="text-center mb-4 reveal" data-anim="fade-up">
+        <p class="section-eyebrow">THE COLLECTION</p>
+        <h2 class="section-title">Full Gallery</h2>
+        <p class="section-text mx-auto" style="max-width:600px;">
+            Tap any card to open a full-size view with details. Use the filters to jump straight to a category,
+            filtering here runs on pure CSS, no JavaScript involved.
+        </p>
+        </div>
+
+        <div class="filter-wrap">
+        <input type="radio" name="carfilter" id="f-all" class="filter-radio" checked>
+        <input type="radio" name="carfilter" id="f-sports" class="filter-radio">
+        <input type="radio" name="carfilter" id="f-classic" class="filter-radio">
+        <input type="radio" name="carfilter" id="f-electric" class="filter-radio">
+        <input type="radio" name="carfilter" id="f-offroad" class="filter-radio">
+        <input type="radio" name="carfilter" id="f-luxury" class="filter-radio">
+        <input type="radio" name="carfilter" id="f-moto" class="filter-radio">
+
+        <div class="filter-bar reveal" data-anim="fade-up">
+            <label for="f-all" class="btn-filter">All</label>
+            <label for="f-sports" class="btn-filter">Sports</label>
+            <label for="f-classic" class="btn-filter">Classic</label>
+            <label for="f-electric" class="btn-filter">Electric</label>
+            <label for="f-offroad" class="btn-filter">Off-Road</label>
+            <label for="f-luxury" class="btn-filter">Luxury</label>
+            <label for="f-moto" class="btn-filter">Motorcycle</label>
+        </div>
+
+        <div class="row g-4" id="galleryGrid">
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="sports">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar01">
+                <div class="gallery-img-wrap">
+                <img src="9.jpg" alt="ferrari">
+                <span class="badge-cat">Sports</span>
+                </div>
+                <div class="gallery-caption"><h6>Ferrari Vampire</h6><p>Track-bred mid-engine coupe</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="classic">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar02">
+                <div class="gallery-img-wrap">
+                <img src="10.jpg" alt="Camaro">
+                <span class="badge-cat">Classic</span>
+                </div>
+                <div class="gallery-caption"><h6>1969 Chevrolet Camaro</h6><p>Fully restored convertible icon</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="electric">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar03">
+                <div class="gallery-img-wrap">
+                <img src="11.jpg" alt="BYD">
+                <span class="badge-cat">Electric</span>
+                </div>
+                <div class="gallery-caption"><h6>BYD</h6><p>Silent, instant, electric</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="offroad">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar04">
+                <div class="gallery-img-wrap">
+                <img src="12.jpg" alt="Off-road truck driving through mud">
+                <span class="badge-cat">Off-Road</span>
+                </div>
+                <div class="gallery-caption"><h6>FORD Raptor</h6><p>Built for the unpaved path</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="luxury">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar05">
+                <div class="gallery-img-wrap">
+                <img src="13.jpg" alt="Black luxury sedan parked outside a hotel">
+                <span class="badge-cat">Luxury</span>
+                </div>
+                <div class="gallery-caption"><h6>Rolls Royce Phantom</h6><p>Effortless, quiet power</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="moto">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar06">
+                <div class="gallery-img-wrap">
+                <img src="14.jpg" alt="Sports Bike motorcycle">
+                <span class="badge-cat">Motorcycle</span>
+                </div>
+                <div class="gallery-caption"><h6>YAMAHA R7</h6><p>Built for Racing</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="sports">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar07">
+                <div class="gallery-img-wrap">
+                <img src="15.jpg" alt="Blue turbocharged sports coupe">
+                <span class="badge-cat">Sports</span>
+                </div>
+                <div class="gallery-caption"><h6>Falcon Turbo</h6><p>Grand touring, turbocharged</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="classic">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar08">
+                <div class="gallery-img-wrap">
+                <img src="16.jpg" alt="Vintage muscle car with chrome trim">
+                <span class="badge-cat">Classic</span>
+                </div>
+                <div class="gallery-caption"><h6>Heritage Coupe '65</h6><p>Original chrome, original soul</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="electric">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar09">
+                <div class="gallery-img-wrap">
+                <img src="17.jpg" alt="Compact electric hatchback in a city street">
+                <span class="badge-cat">Electric</span>
+                </div>
+                <div class="gallery-caption"><h6>TESLA</h6><p>Nimble city electric</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="offroad">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar10">
+                <div class="gallery-img-wrap">
+                <img src="18.jpg" alt="Off-road buggy jumping over sand dunes">
+                <span class="badge-cat">Off-Road</span>
+                </div>
+                <div class="gallery-caption"><h6>Toyota Tacoma</h6><p>Long travel, high speed</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="luxury">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar11">
+                <div class="gallery-img-wrap">
+                <img src="19.jpg" alt="Silver luxury car on a city road">
+                <span class="badge-cat">Luxury</span>
+                </div>
+                <div class="gallery-caption"><h6>Porsche Carrera</h6><p>Commanding, quiet, spacious</p></div>
+            </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 gallery-item reveal" data-anim="pop" data-category="moto">
+            <div class="gallery-card" data-bs-toggle="modal" data-bs-target="#modalCar12">
+                <div class="gallery-img-wrap">
+                <img src="20.jpg" alt="Touring motorcycle parked on an open highway">
+                <span class="badge-cat">Motorcycle</span>
+                </div>
+                <div class="gallery-caption"><h6>Honda Click 125 V3</h6><p>Built for the long highway</p></div>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <div class="modal fade" id="modalCar01" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Sports</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="9.jpg" alt="ferrari">
+        <div class="modal-body">
+        <h4>Ferrari Vampire</h4>
+        <p class="text-muted">A mid-engine sports coupe built for the track, wrapped in crimson red with a carbon-fiber aero package.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">620 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">330 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar02" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Classic</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="10.jpg" alt="Camaro">
+        <div class="modal-body">
+        <h4>1969 Chevrolet Camaro</h4>
+        <p class="text-muted">A beautifully restored 1968 convertible roadster, finished in its original sunset-orange paint.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">180 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">190 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar03" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Electric</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="11.jpg" alt="BYD">
+        <div class="modal-body">
+        <h4>BYD</h4>
+        <p class="text-muted">A silent hypercar powered entirely by electricity, capable of 0-100 km/h in under two seconds.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">1020 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">350 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar04" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Off-Road</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="12.jpg" alt="Off-road truck driving through mud">
+        <div class="modal-body">
+        <h4>FORD RAPTOR</h4>
+        <p class="text-muted">A rugged, lifted off-roader built to tackle mud, rock, and sand with equal confidence.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">400 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">180 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar05" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Luxury</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="13.jpg" alt="Black luxury sedan parked outside a hotel">
+        <div class="modal-body">
+        <h4>Rolls Royce Phantom</h4>
+        <p class="text-muted">A full-size luxury sedan wrapped in hand-stitched leather and quiet, effortless power.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">340 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">240 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar06" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Motorcycle</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="14.jpg" alt="Sports Bike motorcycle">
+        <div class="modal-body">
+        <h4>YAMAHA R7</h4>
+        <p class="text-muted">A Sports Bike for racing and late-night city rides.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">120 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">260 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar07" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Sports</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="15.jpg" alt="Blue turbocharged sports coupe">
+        <div class="modal-body">
+        <h4>Falcon Turbo</h4>
+        <p class="text-muted">A twin-turbo grand tourer that blends everyday comfort with genuine supercar performance.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">580 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">315 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar08" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Classic</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="16.jpg" alt="Vintage muscle car with chrome trim">
+        <div class="modal-body">
+        <h4>Heritage Coupe '65</h4>
+        <p class="text-muted">A meticulously preserved 1965 muscle coupe, original chrome trim and all.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">290 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">205 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar09" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Electric</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="17.jpg" alt="Compact electric hatchback in a city street">
+        <div class="modal-body">
+        <h4>TESLA</h4>
+        <p class="text-muted">A nimble city-friendly electric hatchback designed for efficient daily driving.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">210 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">160 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar10" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Off-Road</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="18.jpg" alt="Off-road buggy jumping over sand dunes">
+        <div class="modal-body">
+        <h4>Toyota Tacoma</h4>
+        <p class="text-muted">A purpose-built desert buggy with long-travel suspension for high-speed dune jumps.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">450 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">195 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar11" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Luxury</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+    <img src="19.jpg" alt="Silver luxury car on a city road">
+        <div class="modal-body">
+        <h4>Porsche Carrera</h4>
+        <p class="text-muted">A luxury city road car combining commanding presence with a whisper-quiet seats.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">390 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">230 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+    <div class="modal fade" id="modalCar12" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content">
+        <div class="modal-header border-0"><span class="badge-cat static">Motorcycle</span>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+        <img src="20.jpg" alt="Touring motorcycle parked on an open highway">
+        <div class="modal-body">
+        <h4>Honda Click 125 V3</h4>
+        <p class="text-muted">A motorcycle built for long highway miles and all-day comfort.</p>
+        <div class="row g-3 text-center mt-2">
+            <div class="col-6"><div class="spec-box"><i class="bi bi-lightning-fill"></i><div class="spec-value">95 hp</div><div class="spec-label">Horsepower</div></div></div>
+            <div class="col-6"><div class="spec-box"><i class="bi bi-speedometer"></i><div class="spec-value">180 km/h</div><div class="spec-label">Top Speed</div></div></div>
+        </div>
+        </div>
+        <div class="modal-footer border-0">
+        <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        <a href="#contact" class="btn btn-accent" data-bs-dismiss="modal">Inquire About This Build</a>
+        </div>
+    </div></div>
+    </div>
+
+
+    <section class="section-padding section-dark">
+    <div class="container">
+        <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6 reveal" data-anim="fade-right">
+            <div class="spotlight-img-wrap">
+            <img src="21.gif" class="img-fluid rounded-4" alt="Featured crimson sports car close up">
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 reveal" data-anim="fade-left">
+            <p class="section-eyebrow">CAR OF THE MONTH</p>
+            <h2 class="section-title">Lamborghini Aventador</h2>
+            <p class="section-text">
+            Every panel on the TJ GT is shaped by airflow, not fashion. It's the showcase's most-viewed build and
+            here's a closer look at what makes it tick.
+            </p>
+            <div class="mb-3">
+            <div class="d-flex justify-content-between small mb-1"><span>Acceleration (0-100 km/h)</span><span>2.6s</span></div>
+            <div class="progress"><div class="progress-bar" style="width:92%"></div></div>
+            </div>
+            <div class="mb-3">
+            <div class="d-flex justify-content-between small mb-1"><span>Top Speed</span><span>330 km/h</span></div>
+            <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+            </div>
+            <div class="mb-3">
+            <div class="d-flex justify-content-between small mb-1"><span>Handling Score</span><span>9.4 / 10</span></div>
+            <div class="progress"><div class="progress-bar" style="width:94%"></div></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    
+    <section class="section-padding">
+    <div class="container">
+        <div class="text-center mb-5 reveal" data-anim="fade-up">
+        <p class="section-eyebrow">GOOD TO KNOW</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 reveal" data-anim="fade-up">
+            <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    How were the cars in this gallery selected?
+                </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Each vehicle was chosen to represent a distinct corner of the automotive world — sports, classic,
+                    electric, off-road, luxury, and motorcycles — so the showcase feels complete rather than repetitive.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Can I filter the gallery by vehicle type?
+                </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes. Use the filter buttons above the gallery grid, or click any category card in the Categories
+                    section to jump straight down to the gallery.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Are the horsepower and top speed figures real?
+                </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    They're representative figures used for the purposes of this showcase and can be edited to match
+                    whatever vehicles you feature in your own version.
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+   
+    <section id="contact" class="section-padding section-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 offset-md-2 text-center mb-5 reveal" data-anim="fade-up">
+            <p class="section-eyebrow">GET IN TOUCH</p>
+            <h2 class="section-title">Have a Car Worth Featuring?</h2>
+            <p class="section-text">Send us a message and it might end up in the next update of the showcase.</p>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 reveal" data-anim="fade-up">
+            <form class="row g-3">
+            <div class="col-12 col-md-6">
+                <div class="form-floating">
+                <input type="text" class="form-control" id="nameInput" placeholder="Your name" required>
+                <label for="nameInput">Your Name</label>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="form-floating">
+                <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                <label for="emailInput">Email Address</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-floating">
+                <textarea class="form-control" id="messageInput" placeholder="Tell us about your car" style="height:130px" required></textarea>
+                <label for="messageInput">Tell Us About Your Car</label>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-accent btn-lg px-5">Send Message <i class="bi bi-send-fill"></i></button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </section>
+
+  
+    <footer class="footer-section">
+    <div class="container">
+        <div class="row g-4">
+        <div class="col-12 col-md-4">
+            <h5 class="footer-brand"><i class="bi bi-speedometer2"></i> TJ GARAGE</h5>
+            <p class="text-muted small">A student showcase project exploring Bootstrap layouts, components, and
+            responsive design through the lens of cars and transportation.</p>
+            <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <h6>Explore</h6>
+            <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#categories">Categories</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md-2">
+            <h6>Project</h6>
+            <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-4">
+            <h6>Newsletter</h6>
+            <p class="text-muted small">Get notified when new vehicles are added to the gallery.</p>
+            <div class="input-group">
+            <input type="email" class="form-control" placeholder="Email address">
+            <button class="btn btn-accent" type="button"><i class="bi bi-send-fill"></i></button>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <p class="text-center text-muted small mb-0">© 2026 TJ Garage — CCS114 WebTech Midterm LabAct 2.</p>
+    </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
